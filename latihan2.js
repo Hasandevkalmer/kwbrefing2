@@ -72,7 +72,7 @@
         break;
       }
     }
-    console.log(isAccept, i);
+    console.log(isAccept, i, str[i]);
     //other AllChar
     if (isAccept === false) {
       poin -= 50;
@@ -81,4 +81,4 @@
   }
 }
 
-console.log(getPrize("12s.ssrr"));
+console.log(getPrize("qe3.dasdas"));
